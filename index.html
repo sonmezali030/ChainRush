@@ -501,6 +501,13 @@ canvas{
 .rl-boss-tag{position:absolute;top:0;right:0;background:#ff3366;font-family:'Bebas Neue',sans-serif;font-size:7px;letter-spacing:1px;color:#fff;padding:2px 6px;border-radius:0 11px 0 6px}
 .rl-connector{width:2px;height:10px;background:rgba(255,255,255,.08);margin-left:22px}
 </style>
+<link rel="manifest" href="manifest.json">
+
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/service-worker.js');
+}
+</script>
 </head>
 <body>
 <canvas id="c"></canvas>
