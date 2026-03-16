@@ -1,7 +1,7 @@
 {
   "name": "ChainRush",
   "short_name": "ChainRush",
-  "description": "Fast reflex arcade game where you control a growing chain and survive as long as possible.",
+  "description": "Fast reflex arcade game where you control a chain and survive as long as possible.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#000000",
